@@ -9,7 +9,7 @@ export default function Layout({ children, meta: pageMeta }) {
     description:
       'A podcast for developers or tech leads looking for quick tactics to improve day-to-day performance. Hosted by Josh Hornby.',
     cardImage:
-      'https://images.transistor.fm/file/transistor/images/social_images/site/6168/6_MINUITE_SOFTWARE_DEVELOPER_SOCIAL.jpg',
+      'https://images.transistor.fm/file/transistor/images/social_images/site/6168/Social.png',
     feed: 'https://feeds.transistor.fm/6-minute-software-development',
     keywords: ['technology', 'software', 'web', 'development', 'product', 'startup'],
     ...pageMeta,
