@@ -50,7 +50,7 @@ export default function Layout({ children, meta: pageMeta }) {
               <img
                 className="h-28 w-28 sm:h-36 sm:w-36 rounded-lg object-cover"
                 src="/podcast-cover.jpg"
-                alt=""
+                alt="6 Minute Software Development Podcst Cover Image"
               />
             </a>
           </Link>
