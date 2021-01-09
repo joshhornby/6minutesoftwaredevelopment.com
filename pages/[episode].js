@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import { useRouter } from 'next/router'
 
 export async function getStaticProps({ params }) {
-  const feed = await Feed.load('https://feeds.transistor.fm/full-stack-radio')
+  const feed = await Feed.load('https://feeds.transistor.fm/6-minute-software-development')
 
   return {
     props: {
@@ -27,7 +27,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const feed = await Feed.load('https://feeds.transistor.fm/full-stack-radio')
+  const feed = await Feed.load('https://feeds.transistor.fm/6-minute-software-development')
 
   return {
     paths: feed.items.map(({ itunes_episode }) => ({
@@ -62,7 +62,7 @@ export default function Home({ episode }) {
   return (
     <Layout meta={meta}>
       <Head>
-        <title>{episode.title} &middot; Full Stack Radio</title>
+        <title>{episode.title} &middot; 6 Minute Software Development</title>
       </Head>
       <div className="border-t-2 border-gray-100 pt-8">
         <div>

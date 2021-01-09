@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 
 export async function getStaticProps() {
-  const feed = await Feed.load('https://feeds.transistor.fm/full-stack-radio')
+  const feed = await Feed.load('https://feeds.transistor.fm/6-minute-software-development')
 
   return {
     props: {
@@ -26,7 +26,7 @@ const dateTimeTemplate = tinytime('{YYYY}-{Mo}-{DD}')
 
 export default function Home({ episodes }) {
   const meta = {
-    title: 'All episodes • Full Stack Radio',
+    title: 'All episodes • 6 Minute Software Development',
   }
 
   return (
