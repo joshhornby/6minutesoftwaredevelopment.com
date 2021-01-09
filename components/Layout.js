@@ -62,8 +62,8 @@ export default function Layout({ children, meta: pageMeta }) {
             </h1>
             <div className="mt-2">
               <p className="text-xl leading-7 text-gray-500">
-                A podcast for developers interested in building great software products. Hosted by{' '}
-                <a href="https://twitter.com/joshua_hornby">Josh Hornby</a>.
+                A podcast for developers or tech leads looking for quick tactics to improve day-to-day performance. Hosted by{' '}
+                <a className="text-purple-700" href="https://twitter.com/joshua_hornby">Josh Hornby</a>.
               </p>
             </div>
             <div className="mt-4 flex justify-center space-x-2 text-gray-400 sm:justify-start">
