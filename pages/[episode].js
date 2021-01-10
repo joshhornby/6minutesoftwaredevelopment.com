@@ -10,7 +10,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      episode: feed.items
+      episode: feed.items.filter(item => item.itunes_episode_type === 'full')
         .map(({ id, url, title, description, content, created, itunes_episode }) => ({
           id,
           embed: url.replace('.fm/s', '.fm/e') + '/dark',
@@ -30,7 +30,9 @@ export async function getStaticPaths() {
   const feed = await Feed.load('https://feeds.transistor.fm/6-minute-software-development')
 
   return {
-    paths: feed.items.map(({ itunes_episode }) => ({
+    paths: feed.items
+        .filter(item => item.itunes_episode_type === 'full')
+        .map(({ itunes_episode }) => ({
       params: {
         episode: itunes_episode,
       },
