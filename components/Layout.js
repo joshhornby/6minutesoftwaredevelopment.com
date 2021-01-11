@@ -67,12 +67,12 @@ export default function Layout({ children, meta: pageMeta }) {
               </p>
             </div>
             <div className="mt-4 flex justify-center space-x-2 text-gray-400 sm:justify-start">
-              {/*<a*/}
-              {/*  className="text-gray-600 hover:text-gray-900"*/}
-              {/*  href="https://podcasts.apple.com/us/podcast/feed/id931714873"*/}
-              {/*>*/}
-              {/*  Apple Podcasts*/}
-              {/*</a>*/}
+              <a
+                className="text-gray-600 hover:text-gray-900"
+                href="https://podcasts.apple.com/gb/podcast/6-minute-software-development/id1548123279"
+              >
+                Apple Podcasts
+              </a>
               <span>{'•'}</span>
               <a
                   className="text-gray-600 hover:text-gray-900"
@@ -81,12 +81,12 @@ export default function Layout({ children, meta: pageMeta }) {
                 Spotify
               </a>
               <span>{'•'}</span>
-              {/*<a*/}
-              {/*  className="text-gray-600 hover:text-gray-900"*/}
-              {/*  href="https://overcast.fm/itunes931714873"*/}
-              {/*>*/}
-              {/*  Overcast*/}
-              {/*</a>*/}
+              <a
+                className="text-gray-600 hover:text-gray-900"
+                href="https://overcast.fm/itunes1548123279"
+              >
+                Overcast
+              </a>
               <span>{'•'}</span>
               <a
                 className="text-gray-600 hover:text-gray-900"
