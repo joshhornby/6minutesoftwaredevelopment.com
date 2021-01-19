@@ -7,7 +7,7 @@ export default function Layout({ children, meta: pageMeta }) {
   const meta = {
     title: '6 Minute Software Development',
     description:
-      'A podcast for developers or tech leads looking for quick tactics to improve day-to-day performance. Hosted by Josh Hornby.',
+      'A podcast for developers or tech leads looking for quick tactics to improve day-to-day performance, in 6 minutes or less. Hosted by Josh Hornby.',
     cardImage:
       'https://images.transistor.fm/file/transistor/images/social_images/site/6168/Social.png',
     feed: 'https://feeds.transistor.fm/6-minute-software-development',
@@ -62,7 +62,7 @@ export default function Layout({ children, meta: pageMeta }) {
             </h1>
             <div className="mt-2">
               <p className="text-xl leading-7 text-gray-500">
-                A podcast for developers or tech leads looking for quick tactics to improve day-to-day performance. Hosted by{' '}
+                A podcast for developers or tech leads looking for quick tactics to improve day-to-day performance, in 6 minutes or less. Hosted by{' '}
                 <a className="text-purple-700" href="https://twitter.com/joshua_hornby">Josh Hornby</a>.
               </p>
             </div>
